@@ -90,8 +90,8 @@
 		A7E3E6C62763D99C0029FF90 = {
 			isa = PBXGroup;
 			children = (
-				A7E3E6D12763D99C0029FF90 /* PrivacyRedirect */,
-				A7E3E6F02763D99E0029FF90 /* PrivacyRedirect Extension */,
+				A7E3E6D12763D99C0029FF90 /* App */,
+				A7E3E6F02763D99E0029FF90 /* Extension */,
 				A7E3E6D02763D99C0029FF90 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,7 +105,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A7E3E6D12763D99C0029FF90 /* PrivacyRedirect */ = {
+		A7E3E6D12763D99C0029FF90 /* App */ = {
 			isa = PBXGroup;
 			children = (
 				A7E3E6D22763D99C0029FF90 /* AppDelegate.swift */,
@@ -117,7 +117,7 @@
 				A7E3E6E72763D99D0029FF90 /* Info.plist */,
 				A7E3E6D42763D99C0029FF90 /* Resources */,
 			);
-			path = PrivacyRedirect;
+			path = App;
 			sourceTree = "<group>";
 		};
 		A7E3E6D42763D99C0029FF90 /* Resources */ = {
@@ -130,14 +130,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		A7E3E6F02763D99E0029FF90 /* PrivacyRedirect Extension */ = {
+		A7E3E6F02763D99E0029FF90 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				A7E3E6FE2763D99E0029FF90 /* Resources */,
 				A7E3E6F12763D99E0029FF90 /* SafariWebExtensionHandler.swift */,
 				A7E3E6F32763D99E0029FF90 /* Info.plist */,
 			);
-			path = "PrivacyRedirect Extension";
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		A7E3E6FE2763D99E0029FF90 /* Resources */ = {
@@ -149,7 +149,7 @@
 				A7E3E7022763D99E0029FF90 /* pages */,
 			);
 			name = Resources;
-			path = "PrivacyRedirect Extension";
+			path = Extension;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -440,6 +440,7 @@
 				DEVELOPMENT_TEAM = JGMFM42JM6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Extension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PrivacyRedirect;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,6 +469,7 @@
 				DEVELOPMENT_TEAM = JGMFM42JM6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Extension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PrivacyRedirect;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -499,6 +501,7 @@
 				DEVELOPMENT_TEAM = JGMFM42JM6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PrivacyRedirect;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -534,6 +537,7 @@
 				DEVELOPMENT_TEAM = JGMFM42JM6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PrivacyRedirect;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
