@@ -5,7 +5,7 @@
   "manifest_version": 2,
   "background": {
     "page": "pages/background/background.html",
-    "persistent": true
+    "persistent": false
   },
   "default_locale": "en",
   "icons": {
@@ -14,7 +14,7 @@
     "48": "assets/images/icon48.png",
     "128": "assets/images/icon128.png"
   },
-  "permissions": ["storage", "webRequest", "webRequestBlocking", "<all_urls>"],
+  "permissions": ["storage", "webNavigation", "<all_urls>"],
   "browser_action": {
     "default_title": "Privacy Redirect",
     "default_popup": "pages/popup/popup.html",

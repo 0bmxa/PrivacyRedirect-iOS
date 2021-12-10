@@ -577,8 +577,8 @@ function redirectWikipedia(url, initiator) {
   else return null;
 }
 
-browser.webRequest.onBeforeRequest.addListener(
-  (details) => {
+
+browser.webNavigation.onBeforeNavigate.addListener((details) => {
     const url = new URL(details.url);
     let initiator;
     if (details.originUrl) {
@@ -628,14 +628,13 @@ browser.webRequest.onBeforeRequest.addListener(
         `"${redirect.redirectUrl}"`
       );
       console.info("Details", details);
+
+      browser.tabs.update(details.tabID, {
+        loadReplace: true,
+        url: redirect.redirectUrl
+      });
     }
-    return redirect;
-  },
-  {
-    urls: ["<all_urls>"],
-  },
-  ["blocking"]
-);
+});
 
 browser.runtime.onInstalled.addListener((details) => {
   browser.storage.sync.get(
