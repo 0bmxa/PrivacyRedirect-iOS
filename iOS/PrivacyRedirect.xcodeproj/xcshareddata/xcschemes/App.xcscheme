@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A7E3E6CE2763D99C0029FF90"
-               BuildableName = "PrivacyRedirect.app"
-               BlueprintName = "PrivacyRedirect"
+               BuildableName = "App.app"
+               BlueprintName = "App"
                ReferencedContainer = "container:PrivacyRedirect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A7E3E6CE2763D99C0029FF90"
-            BuildableName = "PrivacyRedirect.app"
-            BlueprintName = "PrivacyRedirect"
+            BuildableName = "App.app"
+            BlueprintName = "App"
             ReferencedContainer = "container:PrivacyRedirect.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A7E3E6CE2763D99C0029FF90"
-            BuildableName = "PrivacyRedirect.app"
-            BlueprintName = "PrivacyRedirect"
+            BuildableName = "App.app"
+            BlueprintName = "App"
             ReferencedContainer = "container:PrivacyRedirect.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

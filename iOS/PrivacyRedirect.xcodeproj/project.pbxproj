@@ -15,7 +15,7 @@
 		A7E3E6DF2763D99C0029FF90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E3E6DE2763D99C0029FF90 /* ViewController.swift */; };
 		A7E3E6E22763D99C0029FF90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E3E6E02763D99C0029FF90 /* LaunchScreen.storyboard */; };
 		A7E3E6E52763D99C0029FF90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7E3E6E32763D99C0029FF90 /* Main.storyboard */; };
-		A7E3E6ED2763D99E0029FF90 /* PrivacyRedirect Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A7E3E6EC2763D99E0029FF90 /* PrivacyRedirect Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A7E3E6ED2763D99E0029FF90 /* PrivacyRedirect_Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A7E3E6EC2763D99E0029FF90 /* PrivacyRedirect_Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A7E3E6F22763D99E0029FF90 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E3E6F12763D99E0029FF90 /* SafariWebExtensionHandler.swift */; };
 		A7E3E6F42763D99E0029FF90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7E3E6E62763D99D0029FF90 /* Assets.xcassets */; };
 		A7E3E7032763D99E0029FF90 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A7E3E6FF2763D99E0029FF90 /* manifest.json */; };
@@ -41,7 +41,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				A7E3E6ED2763D99E0029FF90 /* PrivacyRedirect Extension.appex in Embed App Extensions */,
+				A7E3E6ED2763D99E0029FF90 /* PrivacyRedirect_Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,7 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A7E3E6CF2763D99C0029FF90 /* PrivacyRedirect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivacyRedirect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E3E6CF2763D99C0029FF90 /* PrivacyRedirect_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = PrivacyRedirect_App.app; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7E3E6D22763D99C0029FF90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7E3E6D62763D99C0029FF90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		A7E3E6D82763D99C0029FF90 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		A7E3E6E42763D99C0029FF90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7E3E6E62763D99D0029FF90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7E3E6E72763D99D0029FF90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7E3E6EC2763D99E0029FF90 /* PrivacyRedirect Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PrivacyRedirect Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E3E6EC2763D99E0029FF90 /* PrivacyRedirect_Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; name = PrivacyRedirect_Extension.appex; path = Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7E3E6F12763D99E0029FF90 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		A7E3E6F32763D99E0029FF90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7E3E6FF2763D99E0029FF90 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../src/manifest.json; sourceTree = "<group>"; };
@@ -99,8 +99,8 @@
 		A7E3E6D02763D99C0029FF90 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7E3E6CF2763D99C0029FF90 /* PrivacyRedirect.app */,
-				A7E3E6EC2763D99E0029FF90 /* PrivacyRedirect Extension.appex */,
+				A7E3E6CF2763D99C0029FF90 /* PrivacyRedirect_App.app */,
+				A7E3E6EC2763D99E0029FF90 /* PrivacyRedirect_Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,9 +155,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A7E3E6CE2763D99C0029FF90 /* PrivacyRedirect */ = {
+		A7E3E6CE2763D99C0029FF90 /* App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7E3E6FB2763D99E0029FF90 /* Build configuration list for PBXNativeTarget "PrivacyRedirect" */;
+			buildConfigurationList = A7E3E6FB2763D99E0029FF90 /* Build configuration list for PBXNativeTarget "App" */;
 			buildPhases = (
 				A7E3E6CB2763D99C0029FF90 /* Sources */,
 				A7E3E6CC2763D99C0029FF90 /* Frameworks */,
@@ -169,14 +169,14 @@
 			dependencies = (
 				A7E3E6EF2763D99E0029FF90 /* PBXTargetDependency */,
 			);
-			name = PrivacyRedirect;
+			name = App;
 			productName = PrivacyRedirect;
-			productReference = A7E3E6CF2763D99C0029FF90 /* PrivacyRedirect.app */;
+			productReference = A7E3E6CF2763D99C0029FF90 /* PrivacyRedirect_App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A7E3E6EB2763D99E0029FF90 /* PrivacyRedirect Extension */ = {
+		A7E3E6EB2763D99E0029FF90 /* Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7E3E6F72763D99E0029FF90 /* Build configuration list for PBXNativeTarget "PrivacyRedirect Extension" */;
+			buildConfigurationList = A7E3E6F72763D99E0029FF90 /* Build configuration list for PBXNativeTarget "Extension" */;
 			buildPhases = (
 				A7E3E6E82763D99E0029FF90 /* Sources */,
 				A7E3E6E92763D99E0029FF90 /* Frameworks */,
@@ -186,9 +186,9 @@
 			);
 			dependencies = (
 			);
-			name = "PrivacyRedirect Extension";
+			name = Extension;
 			productName = "PrivacyRedirect Extension";
-			productReference = A7E3E6EC2763D99E0029FF90 /* PrivacyRedirect Extension.appex */;
+			productReference = A7E3E6EC2763D99E0029FF90 /* PrivacyRedirect_Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -222,8 +222,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7E3E6CE2763D99C0029FF90 /* PrivacyRedirect */,
-				A7E3E6EB2763D99E0029FF90 /* PrivacyRedirect Extension */,
+				A7E3E6CE2763D99C0029FF90 /* App */,
+				A7E3E6EB2763D99E0029FF90 /* Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -279,7 +279,7 @@
 /* Begin PBXTargetDependency section */
 		A7E3E6EF2763D99E0029FF90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A7E3E6EB2763D99E0029FF90 /* PrivacyRedirect Extension */;
+			target = A7E3E6EB2763D99E0029FF90 /* Extension */;
 			targetProxy = A7E3E6EE2763D99E0029FF90 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -363,10 +363,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(PROJECT_NAME)";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -418,9 +420,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(PROJECT_NAME)";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -435,8 +439,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JGMFM42JM6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "PrivacyRedirect Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "PrivacyRedirect Extension";
+				INFOPLIST_FILE = Extension/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,8 +452,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.0bmxa.PrivacyRedirect-Converted.Extension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0bmxa.PrivacyRedirect.Extension;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -465,8 +467,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JGMFM42JM6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "PrivacyRedirect Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "PrivacyRedirect Extension";
+				INFOPLIST_FILE = Extension/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -479,8 +480,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.0bmxa.PrivacyRedirect-Converted.Extension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0bmxa.PrivacyRedirect.Extension;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -498,8 +498,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JGMFM42JM6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PrivacyRedirect/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = PrivacyRedirect;
+				INFOPLIST_FILE = App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -517,8 +516,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.0bmxa.PrivacyRedirect-Converted";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0bmxa.PrivacyRedirect;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -535,8 +533,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JGMFM42JM6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PrivacyRedirect/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = PrivacyRedirect;
+				INFOPLIST_FILE = App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -554,8 +551,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.0bmxa.PrivacyRedirect-Converted";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0bmxa.PrivacyRedirect;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -574,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7E3E6F72763D99E0029FF90 /* Build configuration list for PBXNativeTarget "PrivacyRedirect Extension" */ = {
+		A7E3E6F72763D99E0029FF90 /* Build configuration list for PBXNativeTarget "Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7E3E6F82763D99E0029FF90 /* Debug */,
@@ -583,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7E3E6FB2763D99E0029FF90 /* Build configuration list for PBXNativeTarget "PrivacyRedirect" */ = {
+		A7E3E6FB2763D99E0029FF90 /* Build configuration list for PBXNativeTarget "App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7E3E6FC2763D99E0029FF90 /* Debug */,
