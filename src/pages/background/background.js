@@ -374,7 +374,7 @@ function redirectGoogleMaps(url, initiator) {
   if (disableOsm || isException(url, initiator)) {
     return null;
   }
-  if (initiator.host === "earth.google.com") {
+  if (initiator && initiator.host === "earth.google.com") {
     return null;
   }
   let redirect;
@@ -580,12 +580,9 @@ function redirectWikipedia(url, initiator) {
 
 browser.webNavigation.onBeforeNavigate.addListener((details) => {
     const url = new URL(details.url);
-    let initiator;
-    if (details.originUrl) {
-      initiator = new URL(details.originUrl);
-    } else if (details.initiator) {
-      initiator = new URL(details.initiator);
-    }
+    details.type = details.parentFrameId == '-1' ? 'main_frame' : 'sub_frame';
+    const initiator = null;
+    
     let redirect;
     if (youtubeDomains.includes(url.host)) {
       redirect = {
